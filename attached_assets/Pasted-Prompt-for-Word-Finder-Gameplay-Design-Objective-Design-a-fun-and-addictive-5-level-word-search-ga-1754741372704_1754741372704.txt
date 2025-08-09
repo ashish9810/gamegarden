@@ -1,0 +1,66 @@
+Prompt for Word Finder Gameplay Design
+
+Objective:
+Design a fun and addictive 5-level word search game with a smooth difficulty curve that keeps players engaged, challenged, and rewarded without frustrating them.
+
+Core Gameplay:
+
+A 12×12 letter grid is displayed in the center of the screen.
+
+Players must find all words hidden in the grid by clicking & dragging (or tapping & dragging) across letters.
+
+Words can be horizontal, vertical, diagonal, and—at higher levels—backwards.
+
+As difficulty increases, words become longer, less common, and more intertwined in the grid.
+
+UI Layout for Best Experience:
+
+Center: The main 12×12 grid, visually clean with clear letter spacing.
+
+Right Side Panel: List of words to find. When a player finds a word, it gets:
+
+Struck through in the list.
+
+Highlighted in green in the grid.
+
+Top Bar: Level number + progress bar (“Level X of 5”).
+
+Bottom Bar: Timer, "Restart Level" button, and a “Words Found: X / Total” counter.
+
+Difficulty Progression:
+
+Level 1: Only horizontal & vertical words, common and short. Minimal overlap.
+
+Level 2: Introduce simple diagonals. Words slightly longer.
+
+Level 3: Backwards words allowed. More overlap between words.
+
+Level 4: Mix of all directions, medium-to-long words, more clustering.
+
+Level 5: Longest words, dense overlaps, all directions, less common vocabulary.
+
+Player Feedback & Engagement:
+
+Correct Selection: Green highlight in the grid + strike-through in word list + satisfying sound effect + small confetti animation.
+
+Incorrect Selection: Brief red flash feedback.
+
+Progress Feedback: “Words Found: X / Total” counter updating instantly.
+
+Completion Flow:
+
+Level Complete: Smooth animation with a celebratory sound.
+
+Show stats: time taken, accuracy, and words found.
+
+Offer “Next Level” or “Replay Level” buttons.
+
+Final Completion (after Level 5): “Congratulations! You completed the challenge!” screen with total completion time and replay option.
+
+Tone & Feel:
+
+The game should feel approachable at first but evolve into a brain-teasing challenge.
+
+The word lists should strike a balance between familiar and tricky to keep players in a “just one more level” mindset.
+
+Visuals should be clean, responsive, and satisfying on both desktop and mobile.

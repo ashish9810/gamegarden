@@ -1,0 +1,86 @@
+Name, Place, Animal, Thing – Game Prompt
+Objective / Description
+"Name, Place, Animal, Thing" is a fast-paced, nostalgic word game where players must quickly think of and type a person's name, a place, an animal, and a thing — all starting with the same randomly chosen letter.
+The game blends speed, memory recall, and vocabulary skills, creating a fun yet mentally stimulating experience for solo play or group competitions.
+Only valid entries are rewarded — each answer is checked against a dictionary/database to ensure it’s a real, relevant word in the correct category. Random letters, gibberish, or unrelated terms result in 0 points for that slot.
+
+1. Core Gameplay Experience
+Game starts with a smooth, animated reveal of a random alphabet (large, centered, playful pop-in animation, subtle sound).
+
+Players must type Name, Place, Animal, and Thing starting with that alphabet within a set timer (default 30s, adjustable to 15s or 45s).
+
+Answer Validation:
+
+Uses a verified word database for each category.
+
+Names checked against a global/common name list (first names only).
+
+Places checked against a cities, countries, regions database.
+
+Animals checked against an animal species list.
+
+Things checked against a general nouns list.
+
+2. Scoring
+10 points for each correct, valid answer.
+
+Perfect Round Bonus: 40 points + 10-point bonus if all four are valid.
+
+Invalid, irrelevant, or made-up words = 0 points for that slot.
+
+Duplicate answers (same as previous rounds) = 0 points.
+
+3. Difficulty & Challenge Design
+Start with easy letters (A, B, C) and gradually introduce harder ones (Q, X, Z).
+
+No repeats rule to force fresh thinking.
+
+Validation system ensures fair play and discourages guessing random nonsense.
+
+4. Player Flow – Single Player Mode
+Click Start Game.
+
+Random letter appears instantly.
+
+Four text fields appear for Name, Place, Animal, Thing.
+
+Timer counts down.
+
+On submit or time-up:
+
+Automatic validation & scoring.
+
+Show ✅ for valid, ❌ for invalid or empty.
+
+Move seamlessly to next round.
+
+5. Player Flow – Group Mode
+Host creates a game room, sets timer & rounds.
+
+Friends join via shareable link.
+
+Everyone gets same letter per round.
+
+Real-time validation for fairness.
+
+Leaderboard updates instantly after scoring.
+
+6. UI & Experience
+Top: Round, Timer, Score.
+
+Middle: Large animated alphabet.
+
+Below: Text fields for Name, Place, Animal, Thing.
+
+Bottom: Submit button (auto-submit on time end).
+
+Post-Round: Valid answers + leaderboard.
+
+7. Emotional Hooks
+Confetti for perfect rounds.
+
+Streak bonuses for consecutive perfect plays.
+
+Playful sounds for correct entries.
+
+Speedy transitions to keep momentum high.
